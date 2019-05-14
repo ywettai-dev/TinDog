@@ -1,22 +1,69 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400px;
+    text-align: center;
 }
 
-.title-presenting-download h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #FF4C68;
+    color: #FFF;
+}
+
+.white-section {
+    background-color: #FFF;
+}
+
+/* Title Section */
+
+.big-heading {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
 }
 
-.container-fluid {
-    padding: 3% 15%;
-}
-
 #title {
     background-color: #FF4C68;
     color: #fff;
+    text-align: left;
+}
+
+/* Title image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Meida Query for tilting image */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
 }
 
 /* Navigation bar */
@@ -37,8 +84,8 @@ body {
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem; 
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 /* Download buttons */
@@ -47,9 +94,136 @@ body {
     margin: 5% 3% 5% 0%;
 }
 
-/* Title image */
+/* Feature Section */
 
-.title-image {
-    width: 60%;
-    transform: rotate(25deg);
+#features {
+    padding: 7% 10%;
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.feature-box p {
+    color: #8F8F8F;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.feature-icons {
+    color: #EF8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+    color: #FF4C68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #EF8172;
+}
+
+.testimonial-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #EF8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+#pricing p {
+    color: #8F8F8F;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-column h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.pricing-column h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.pricing-column p {
+    line-height: 1.5;
+}
+
+.pricing-heading {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+/* Call to Action Section */
+
+#cta {
+    padding: 8% 15%;
+}
+
+.cta-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 8% 15%;
+}
+
+#footer p {
+    color: #8F8F8F;
+}
+
+#footer a {
+    color: #343a40 !important;
+}
+
+.social-icon {
+    margin: 20px 10px;
 }
