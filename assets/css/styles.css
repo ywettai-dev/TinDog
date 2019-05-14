@@ -24,6 +24,34 @@ h6 {
     background-color: #FFF;
 }
 
+/* Navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Download buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+
 /* Title Section */
 
 .big-heading {
@@ -66,34 +94,6 @@ h6 {
     padding: 3% 15% 7%;
 }
 
-/* Navigation bar */
-
-.navbar {
-    padding: 0 0 4.5rem;
-}
-
-.navbar-brand {
-    font-family: 'Ubuntu';
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
-.nav-item {
-    padding: 0 18px;
-}
-
-.nav-link {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-/* Download buttons */
-
-.download-btn {
-    margin: 5% 3% 5% 0%;
-}
-
 /* Feature Section */
 
 #features {
@@ -130,13 +130,11 @@ h6 {
 /* Testimonials Section */
 
 #testimonials {
-    text-align: center;
     background-color: #EF8172;
 }
 
 .testimonial-text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 600;
     line-height: 1.5;
 }
@@ -155,7 +153,6 @@ h6 {
 
 #press {
     background-color: #EF8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
